@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+}
+
+.backBtn {
+    width: 30px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}

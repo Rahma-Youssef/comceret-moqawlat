@@ -1,0 +1,60 @@
+.AboutContanier {
+    background-image: url('../../assets/images/Consrtction3.png');
+    background-repeat: no-repeat;
+    background-position: right -80%;
+    background-attachment: fixed;
+    background-size: contain;
+    direction: rtl;
+
+}
+
+.heading {
+    direction: ltr;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.backBtn {
+    width: 30px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.backBtn:hover {
+    transform: scale(.97);
+    -webkit-transform: scale(.97);
+    -moz-transform: scale(.97);
+    -ms-transform: scale(.97);
+    -o-transform: scale(.97);
+}
+
+@media only screen and (min-width:760px) {
+    .cardwidth {
+        width: 75%;
+    }
+
+    .cardwidth p {
+        font-size: 1.25rem;
+    }
+
+    .AboutContanier {
+        background-image: url('../../assets/images/Consrtction3.png');
+        background-position: left;
+        background-attachment: fixed;
+        background-size: 60%;
+
+
+    }
+
+    .listData {
+        margin-right: 40px;
+    }
+
+    .backBtn {
+        width: 50px;
+    }
+}
