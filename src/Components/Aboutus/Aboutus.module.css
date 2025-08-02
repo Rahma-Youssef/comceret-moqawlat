@@ -1,7 +1,7 @@
 .AboutContanier {
     background-image: url('../../assets/images/Consrtction3.png');
     background-repeat: no-repeat;
-    background-position: right -80%;
+    background-position: right 30%;
     background-attachment: fixed;
     background-size: contain;
     direction: rtl;
@@ -11,6 +11,8 @@
 .heading {
     direction: ltr;
 }
+
+
 
 
 .link {
@@ -35,10 +37,12 @@
 @media only screen and (min-width:760px) {
     .cardwidth {
         width: 75%;
+        padding-inline: 16px;
     }
 
     .cardwidth p {
         font-size: 1.25rem;
+
     }
 
     .AboutContanier {
@@ -57,4 +61,5 @@
     .backBtn {
         width: 50px;
     }
+
 }

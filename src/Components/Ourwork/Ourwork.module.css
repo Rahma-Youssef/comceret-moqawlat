@@ -8,3 +8,20 @@
     left: 20px;
     top: 20px;
 }
+
+
+.heading::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    width: 200px;
+    height: 5px;
+   background-image: linear-gradient(to right , #ef8c36,#2a92c2);
+    z-index: -2;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}

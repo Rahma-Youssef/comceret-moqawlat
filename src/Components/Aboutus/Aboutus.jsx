@@ -47,7 +47,7 @@ const Aboutus = () => {
             </div>
           </div>
 
-          <div className={`card  my-5 p-3 shadow  ${StyleAbout.cardwidth}`}>
+          <div className={`card  my-5 py-3 shadow  ${StyleAbout.cardwidth}`}>
             <div className={`card-body`}>
               <h4 className={`card-title fw-bolder text-danger`}>نطاق خدماتنا</h4>
               <h6 className={` fs-5 fw-semibold `}>نغطي جميع أنواع المشاريع، ومنها</h6>
@@ -66,7 +66,7 @@ const Aboutus = () => {
               </p>
             </div>
           </div>
-          <div className={`card  my-5 p-3 shadow  ${StyleAbout.cardwidth}`}>
+          <div className={`card  my-5 py-3 shadow  ${StyleAbout.cardwidth}`}>
             <div className={`card-body`}>
               <h4 className={`card-title fw-bolder text-danger `}> قيمنا</h4>
 
