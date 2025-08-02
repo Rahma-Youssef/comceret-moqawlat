@@ -16,7 +16,7 @@ const Footer = () => {
                                 <div className='d-flex justify-contnet-between gap-2 mb-4 lh-1'>
                                     <i className='fa-solid fa-phone text-warning' ></i>
                                     <div className=''>
-                                        <h6 className='text-capitalize '>Eng. ahmed mouni</h6>
+                                        <h6 className='text-capitalize '>Eng. ahmed mounir</h6>
                                         <a href="https://wa.me/971582598387" target='_blank' className="">+971582598387</a>
                                     </div>
                                 </div>
