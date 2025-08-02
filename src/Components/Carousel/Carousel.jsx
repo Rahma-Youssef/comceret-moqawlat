@@ -1,80 +1,95 @@
-import { caption } from 'framer-motion/client';
+
 import React, { useState } from 'react';
+import workImg1 from '../../assets/images/workImg1.jpg'
+import workImg2 from '../../assets/images/workImg2.jpg'
+import workImg3 from '../../assets/images/workImg3.jpg'
+import workImg4 from '../../assets/images/workImg4.jpg'
+import workImg5 from '../../assets/images/workImg5.jpg'
+import workImg6 from '../../assets/images/workImg6.jpg'
+import workImg7 from '../../assets/images/workImg7.jpg'
+import workImg8 from '../../assets/images/workImg8.jpg'
+import workImg9 from '../../assets/images/workImg9.jpg'
+import workImg10 from '../../assets/images/workImg10.jpg'
+import workImg11 from '../../assets/images/workImg11.jpg'
+import workImg12 from '../../assets/images/workImg12.jpg'
+import workImg13 from '../../assets/images/workImg13.jpg'
+import workImg14 from '../../assets/images/workImg14.jpg'
+import workImg15 from '../../assets/images/workImg15.jpg'
 
 const images = [
     {
         id: 1,
-        src: "/src/assets/images/workImg1.jpg",
-        caption: "صور مباني وتشطيب"
+        src: workImg1,
+
     },
     {
         id: 2,
-        src: "/src/assets/images/workImg2.jpg",
+        src: workImg2,
 
     },
     {
         id: 3,
-        src: "/src/assets/images/workImg3.jpg",
+        src: workImg3,
 
     },
     {
         id: 4,
-        src: "/src/assets/images/workImg4.jpg",
+        src: workImg4,
 
     },
     {
         id: 5,
-        src: "/src/assets/images/workImg5.jpg",
+        src: workImg5,
 
     },
     {
         id: 6,
-        src: "/src/assets/images/workImg6.jpg",
+        src: workImg6,
 
     },
     {
         id: 7,
-        src: "/src/assets/images/workImg7.jpg",
+        src: workImg7,
 
     },
     {
         id: 8,
-        src: "/src/assets/images/workImg8.jpg",
+        src: workImg8,
 
     },
     {
         id: 9,
-        src: "/src/assets/images/workImg9.jpg",
+        src: workImg9,
 
     },
     {
         id: 10,
-        src: "/src/assets/images/workImg10.jpg",
+        src: workImg10,
 
     },
     {
         id: 11,
-        src: "/src/assets/images/workImg11.jpg",
+        src: workImg11,
 
     },
     {
         id: 12,
-        src: "/src/assets/images/workImg12.jpg",
+        src: workImg12,
 
     },
     {
         id: 13,
-        src: "/src/assets/images/workImg13.jpg",
+        src: workImg13,
 
     },
     {
         id: 14,
-        src: "/src/assets/images/workImg14.jpg",
+        src: workImg14,
 
     },
     {
         id: 15,
-        src: "/src/assets/images/workImg15.jpg",
+        src: workImg15,
 
     }
 ];
@@ -113,7 +128,7 @@ export default function Carousel() {
                 <i onClick={goPrev} className="fa-solid fa-caret-right fs-1 position-absolute top-50 end-0 translate-middle-y btn border-0 "></i>
             </div>
 
-       
+
 
 
             <div className="d-flex justify-content-center flex-wrap gap-3 mt-4">
@@ -132,7 +147,7 @@ export default function Carousel() {
                             cursor: "pointer",
                             transition: "all 0.3s"
                         }}
-                        alt={img.caption}
+                       
                     />
                 ))}
             </div>
