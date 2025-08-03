@@ -52,7 +52,7 @@ const Footer = () => {
                         </div>
 
                         <div className="col-md-4  ">
-                           <Link to="/Home" > <img src={concLogo} className='imgfooter' alt="" /></Link>
+                           <Link to="/Home" > <img src={concLogo} className=' w-100' alt="" /></Link>
                         </div>
 
 
