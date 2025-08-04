@@ -16,80 +16,96 @@ import workImg13 from '../../assets/images/workImg13.jpg'
 import workImg14 from '../../assets/images/workImg14.jpg'
 import workImg15 from '../../assets/images/workImg15.jpg'
 
+
 const images = [
     {
         id: 1,
         src: workImg1,
+        thumbnail: "/src/assets/thumbnailImg/workImg1_thumbnail.jpg", // Assuming you want to use the same image as thumbnail
 
     },
     {
         id: 2,
         src: workImg2,
 
+        thumbnail: "/src/assets/thumbnailImg/workImg2_thumbnail.jpg",
     },
     {
         id: 3,
         src: workImg3,
+        thumbnail: "/src/assets/thumbnailImg/workImg3_thumbnail.jpg",
 
     },
     {
         id: 4,
         src: workImg4,
+        thumbnail: "/src/assets/thumbnailImg/workImg4_thumbnail.jpg",
 
     },
     {
         id: 5,
         src: workImg5,
+        thumbnail: "/src/assets/thumbnailImg/workImg5_thumbnail.jpg",
 
     },
     {
         id: 6,
         src: workImg6,
+        thumbnail: "/src/assets/thumbnailImg/workImg6_thumbnail.jpg",
 
     },
     {
         id: 7,
         src: workImg7,
+        thumbnail: "/src/assets/thumbnailImg/workImg7_thumbnail.jpg",
 
     },
     {
         id: 8,
         src: workImg8,
+        thumbnail: "/src/assets/thumbnailImg/workImg8_thumbnail.jpg",
 
     },
     {
         id: 9,
         src: workImg9,
+        thumbnail: "/src/assets/thumbnailImg/workImg9_thumbnail.jpg",
 
     },
     {
         id: 10,
         src: workImg10,
+        thumbnail: "/src/assets/thumbnailImg/workImg10_thumbnail.jpg",
 
     },
     {
         id: 11,
         src: workImg11,
+        thumbnail: "/src/assets/thumbnailImg/workImg11_thumbnail.jpg",
 
     },
     {
         id: 12,
         src: workImg12,
+        thumbnail: "/src/assets/thumbnailImg/workImg12_thumbnail.jpg",
 
     },
     {
         id: 13,
         src: workImg13,
+        thumbnail: "/src/assets/thumbnailImg/workImg13_thumbnail.jpg",
 
     },
     {
         id: 14,
         src: workImg14,
+        thumbnail: "/src/assets/thumbnailImg/workImg14_thumbnail.jpg",
 
     },
     {
         id: 15,
         src: workImg15,
+        thumbnail: "/src/assets/thumbnailImg/workImg15_thumbnail.jpg",
 
     }
 ];
@@ -115,7 +131,7 @@ export default function Carousel() {
             <div className="position-relative">
                 <img
                     src={images[currentIndex].src}
-
+                    loading="lazy"
                     alt="صور مباني وتشطيب"
                     className="img-fluid rounded"
                     style={{ height: "500px", objectFit: "cover" }}
@@ -135,7 +151,8 @@ export default function Carousel() {
                 {images.map((img, index) => (
                     <img
                         key={img.id}
-                        src={img.src}
+                        src={img.thumbnail}
+                        loading="lazy"
                         onClick={() => handleSelect(index)}
                         className={`rounded-3 border ${index === currentIndex ? "border-3 border-primary" : "border-1"
                             }`}
@@ -147,7 +164,7 @@ export default function Carousel() {
                             cursor: "pointer",
                             transition: "all 0.3s"
                         }}
-                       
+
                     />
                 ))}
             </div>

@@ -12,7 +12,7 @@ const Home = () => {
 
           <img src={concreteimg} alt="company logo" loading="lazy" className={` rounded-circle w-100 ${StyleHome.image} shadow-sm`} />
 
-          <ul className={`d-flex justifiy-content-center gap-4 py-4 ${StyleHome.Socialicons}`}>
+          <ul className={`d-flex justify-content-center gap-4 py-4 ${StyleHome.Socialicons}`}>
             <li><a href="https://www.youtube.com/@concrete.moqawlat" target={`_blank`}><i className={`fa-brands fa-youtube fs-6`}></i> </a></li>
             <li><a href="https://www.instagram.com/concrete.moqawlat" target={`_blank`}><i className={`fa-brands fa-instagram fs-6`}></i> </a></li>
             <li><a href="https://tiktok.com/@concrete.moqawlat" target={`_blank`}><i className={`fa-brands fa-tiktok fs-6`}></i> </a></li>
