@@ -15,97 +15,113 @@ import workImg12 from '../../assets/images/workImg12.jpg'
 import workImg13 from '../../assets/images/workImg13.jpg'
 import workImg14 from '../../assets/images/workImg14.jpg'
 import workImg15 from '../../assets/images/workImg15.jpg'
+import thumbnailImg1 from '../../assets/thumbnailImg/workImg1_thumbnail.jpg'
+import thumbnailImg2 from '../../assets/thumbnailImg/workImg2_thumbnail.jpg'
+import thumbnailImg3 from '../../assets/thumbnailImg/workImg3_thumbnail.jpg'        
+import thumbnailImg4 from '../../assets/thumbnailImg/workImg4_thumbnail.jpg'
+import thumbnailImg5 from '../../assets/thumbnailImg/workImg5_thumbnail.jpg'
+import thumbnailImg6 from '../../assets/thumbnailImg/workImg6_thumbnail.jpg'
+import thumbnailImg7 from '../../assets/thumbnailImg/workImg7_thumbnail.jpg'        
+import thumbnailImg8 from '../../assets/thumbnailImg/workImg8_thumbnail.jpg'
+import thumbnailImg9 from '../../assets/thumbnailImg/workImg9_thumbnail.jpg'
+import thumbnailImg10 from '../../assets/thumbnailImg/workImg10_thumbnail.jpg'
+import thumbnailImg11 from '../../assets/thumbnailImg/workImg11_thumbnail.jpg'
+import thumbnailImg12 from '../../assets/thumbnailImg/workImg12_thumbnail.jpg'
+import thumbnailImg13 from '../../assets/thumbnailImg/workImg13_thumbnail.jpg'
+import thumbnailImg14 from '../../assets/thumbnailImg/workImg14_thumbnail.jpg'
+import thumbnailImg15 from '../../assets/thumbnailImg/workImg15_thumbnail.jpg'
+
 
 
 const images = [
     {
         id: 1,
         src: workImg1,
-        thumbnail: "/src/assets/thumbnailImg/workImg1_thumbnail.jpg", // Assuming you want to use the same image as thumbnail
+        thumbnail: thumbnailImg1,
 
     },
     {
         id: 2,
         src: workImg2,
 
-        thumbnail: "/src/assets/thumbnailImg/workImg2_thumbnail.jpg",
+        thumbnail: thumbnailImg2,
     },
     {
         id: 3,
         src: workImg3,
-        thumbnail: "/src/assets/thumbnailImg/workImg3_thumbnail.jpg",
+        thumbnail: thumbnailImg3,
 
     },
     {
         id: 4,
         src: workImg4,
-        thumbnail: "/src/assets/thumbnailImg/workImg4_thumbnail.jpg",
+        thumbnail: thumbnailImg4,
 
     },
     {
         id: 5,
         src: workImg5,
-        thumbnail: "/src/assets/thumbnailImg/workImg5_thumbnail.jpg",
+        thumbnail: thumbnailImg5,
 
     },
     {
         id: 6,
         src: workImg6,
-        thumbnail: "/src/assets/thumbnailImg/workImg6_thumbnail.jpg",
+        thumbnail: thumbnailImg6,
 
     },
     {
         id: 7,
         src: workImg7,
-        thumbnail: "/src/assets/thumbnailImg/workImg7_thumbnail.jpg",
+        thumbnail: thumbnailImg7,
 
     },
     {
         id: 8,
         src: workImg8,
-        thumbnail: "/src/assets/thumbnailImg/workImg8_thumbnail.jpg",
+        thumbnail: thumbnailImg8,
 
     },
     {
         id: 9,
         src: workImg9,
-        thumbnail: "/src/assets/thumbnailImg/workImg9_thumbnail.jpg",
+        thumbnail: thumbnailImg9,
 
     },
     {
         id: 10,
         src: workImg10,
-        thumbnail: "/src/assets/thumbnailImg/workImg10_thumbnail.jpg",
+        thumbnail: thumbnailImg10,
 
     },
     {
         id: 11,
         src: workImg11,
-        thumbnail: "/src/assets/thumbnailImg/workImg11_thumbnail.jpg",
+        thumbnail: thumbnailImg11,
 
     },
     {
         id: 12,
         src: workImg12,
-        thumbnail: "/src/assets/thumbnailImg/workImg12_thumbnail.jpg",
+        thumbnail: thumbnailImg12,
 
     },
     {
         id: 13,
         src: workImg13,
-        thumbnail: "/src/assets/thumbnailImg/workImg13_thumbnail.jpg",
+        thumbnail: thumbnailImg13,
 
     },
     {
         id: 14,
         src: workImg14,
-        thumbnail: "/src/assets/thumbnailImg/workImg14_thumbnail.jpg",
+        thumbnail: thumbnailImg14,
 
     },
     {
         id: 15,
         src: workImg15,
-        thumbnail: "/src/assets/thumbnailImg/workImg15_thumbnail.jpg",
+        thumbnail: thumbnailImg15,
 
     }
 ];
