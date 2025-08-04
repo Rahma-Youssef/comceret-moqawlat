@@ -10,7 +10,7 @@ const Home = () => {
         <div className={`d-flex flex-column  text-center align-items-center  py-5 `}>
           <h1 className={`text-white  fw-bolder ${StyleHome.heading}`}>Concrete Moqawlat</h1>
 
-          <img src={concreteimg} alt="company logo" loading="lazy" className={` rounded-circle w-100 ${StyleHome.image} shadow-sm`} />
+          <img src={concreteimg} alt="company logo" loading="lazy" className={` rounded-circle w-100 ${StyleHome.image} shadow`} />
 
           <ul className={`d-flex justify-content-center gap-4 py-4 ${StyleHome.Socialicons}`}>
             <li><a href="https://www.youtube.com/@concrete.moqawlat" target={`_blank`}><i className={`fa-brands fa-youtube fs-6`}></i> </a></li>
