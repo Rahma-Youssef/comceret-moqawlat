@@ -25,3 +25,10 @@
     -ms-transform: translate(-50%);
     -o-transform: translate(-50%);
 }
+
+@media only screen and (min-width:760px) {
+    .backBtn {
+        width: 50px;
+    }
+
+}
